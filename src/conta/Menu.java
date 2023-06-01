@@ -41,31 +41,31 @@ public class Menu {
 				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT  + "\n\t\t\tCriar Conta \n\n" + Cores.TEXT_RESET);
 				break;
 			case 2:
-				System.out.println("Listar todas as Contas\n\n");
+				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT  + "\t\tListar todas as Contas\n\n" + Cores.TEXT_RESET);
 				break;
 			case 3:
-				System.out.println("Consultar dados da Conta - por número\n\n");
+				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tConsultar dados da Conta - por número\n\n" + Cores.TEXT_RESET);
 				break;
 			case 4:
-				System.out.println("Atualizar dados da Conta\n\n");
+				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tAtualizar dados da Conta\n\n" + Cores.TEXT_RESET);
 				break;
 			case 5:
-				System.out.println("Apagar a Conta\n\n");
+				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tApagar a Conta\n\n" + Cores.TEXT_RESET);
 				break;
 			case 6:
-				System.out.println("Saque\n\n");
+				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tSaque\n\n" + Cores.TEXT_RESET);
 				break;
 			case 7:
-				System.out.println("Depósito\n\n");
+				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tDepósito\n\n" + Cores.TEXT_RESET);
 				break;
 			case 8:
-				System.out.println("Transferência entre Contas\n\n");
+				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tTransferência entre Contas\n\n" + Cores.TEXT_RESET);
 				break;
 			case 9:
-				System.out.printf("\n\tPrograma finalizado.");
+				System.out.printf(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tPrograma finalizado." + Cores.TEXT_RESET);
 				break;
 			default:
-				System.out.printf("\tOpção inválida. Tente novamente.");
+				System.out.printf(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\tOpção inválida. Tente novamente." + Cores.TEXT_RESET);
 			}			
 		} while (option != 9);
 		
