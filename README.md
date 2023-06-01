@@ -1,4 +1,4 @@
-<h1>Projeto 01 - Conta Bancária - Iniciando o Projeto Java</h1>
+<h1>Projeto 01 - Conta Bancária - Projeto Java</h1>
 
 <h2>1. O Projeto Conta Bancária</h2>
 
