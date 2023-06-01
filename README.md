@@ -2,6 +2,7 @@
 
 <h2>1. O Projeto Conta Bancária</h2>
 
+```mermaid
 classDiagram
 class Conta {
 <<Abstract>>
@@ -65,9 +66,9 @@ Conta <|-- ContaCorrente
 Conta <|-- ContaPoupanca
 Conta <.. ContaRepository
 ContaRepository <|.. ContaController
- ```
-  
-  <br />
+```
+
+<br />
 
 O Projeto será composto pelas seguintes Classes e Interfaces:
 
