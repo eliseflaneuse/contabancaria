@@ -13,10 +13,10 @@ public class Menu {
 		int option;
 		
 		do {
-			System.out.println(Cores.TEXT_CYAN_BOLD_BRIGHT);
+			System.out.println(Cores.TEXT_GREEN_BOLD_BRIGHT);
 			System.out.println("\t _________________________________________");
 			System.out.println("\t|                                         |");
-			System.out.println("\t|              Banco da Elise             |");
+			System.out.println("\t|        " + Cores.TEXT_WHITE_BOLD_BRIGHT + "      Banco da Elise      " + Cores.TEXT_RESET + Cores.TEXT_GREEN_BOLD_BRIGHT + "       |");
 			System.out.println("\t|_________________________________________|");
 			System.out.println("\t|                                         |");
 			System.out.println("\t|   1 - Criar Conta                       |");
@@ -30,7 +30,7 @@ public class Menu {
 			System.out.println("\t|   9 - Sair                              |");
 			System.out.println("\t|_________________________________________|");
 			System.out.println("\t|                                         |");
-			System.out.println("\t|       Entre com a opção desejada:       |");
+			System.out.println("\t|    " + Cores.TEXT_WHITE_BRIGHT + "   Entre com a opção desejada:   " + Cores.TEXT_RESET + Cores.TEXT_GREEN_BOLD_BRIGHT + "    |");
 			System.out.println("\t|_________________________________________|" + Cores.TEXT_RESET);
 			
 			option = leia.nextInt();

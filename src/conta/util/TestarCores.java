@@ -65,6 +65,7 @@ public class TestarCores {
         System.out.println(Cores.ANSI_CYAN_BACKGROUND + "Texto com fundo ciano" + Cores.TEXT_RESET);
         System.out.println(Cores.ANSI_WHITE_BACKGROUND + "Texto com fundo branco" + Cores.TEXT_RESET);
         
+        //Alta luminosidade com fundo colorido
         System.out.println(Cores.ANSI_BLACK_BACKGROUND_BRIGHT + "Texto com fundo preto de alta intensidade" + Cores.TEXT_RESET);
         System.out.println(Cores.ANSI_RED_BACKGROUND_BRIGHT + "Texto com fundo vermelho de alta intensidade" + Cores.TEXT_RESET);
         System.out.println(Cores.ANSI_GREEN_BACKGROUND_BRIGHT + "Texto com fundo verde de alta intensidade" + Cores.TEXT_RESET);
