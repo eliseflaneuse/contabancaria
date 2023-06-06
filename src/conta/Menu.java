@@ -10,13 +10,6 @@ public class Menu {
 
 	public static void main(String[] args) {
 
-		// Teste da Classe Conta
-		Conta c1 = new Conta(1, 123, 1, "Adriana", 10000.0f);
-		c1.visualizar();
-		c1.sacar(12000.0f);
-		c1.visualizar();
-		c1.depositar(5000.0f);
-		c1.visualizar();
 
 		// Teste da Classe Conta Corrente
 		ContaCorrente cc1 = new ContaCorrente(1, 123, 1, "José da Silva", 0.0f, 1000.0f);
@@ -60,46 +53,57 @@ public class Menu {
 			System.out.println("\t|    " + Cores.TEXT_WHITE_BRIGHT + "   Entre com a opção desejada:   "
 					+ Cores.TEXT_RESET + Cores.TEXT_GREEN_BOLD_BRIGHT + "    |");
 			System.out.println("\t|_________________________________________|" + Cores.TEXT_RESET);
-
-			option = leia.nextInt();
-			leia.nextLine(); // utilizada para limpar o buffer de entrada
+			
+				option = leia.nextInt();
+				leia.nextLine();
+				
 
 			switch (option) {
 			case 1:
 				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\n\t\t\tCriar Conta \n\n" + Cores.TEXT_RESET);
+				
 				break;
 			case 2:
 				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tListar todas as Contas\n\n" + Cores.TEXT_RESET);
+				
 				break;
 			case 3:
 				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tConsultar dados da Conta - por número\n\n"
 						+ Cores.TEXT_RESET);
+				
 				break;
 			case 4:
 				System.out
 						.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tAtualizar dados da Conta\n\n" + Cores.TEXT_RESET);
+				
 				break;
 			case 5:
 				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tApagar a Conta\n\n" + Cores.TEXT_RESET);
+				
 				break;
 			case 6:
 				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tSaque\n\n" + Cores.TEXT_RESET);
+				
 				break;
 			case 7:
 				System.out.println(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tDepósito\n\n" + Cores.TEXT_RESET);
+				
 				break;
 			case 8:
 				System.out.println(
 						Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tTransferência entre Contas\n\n" + Cores.TEXT_RESET);
+				
 				break;
 			case 9:
 				System.out.printf(Cores.TEXT_YELLOW_BOLD_BRIGHT + "\t\tPrograma finalizado." + Cores.TEXT_RESET);
+				
 				break;
 			default:
 				System.out.printf(
 						Cores.TEXT_YELLOW_BOLD_BRIGHT + "\tOpção inválida. Tente novamente." + Cores.TEXT_RESET);
 			}
 		} while (option != 9);
+		
 
 	}
 
